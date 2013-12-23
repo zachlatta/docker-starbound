@@ -7,4 +7,4 @@ RUN apt-get -y install libfreetype6
 ADD starbound/ /starbound
 
 EXPOSE 21025
-ENTRYPOINT ['/starbound/linux64/launch_starbound_server.sh']
+ENTRYPOINT '/starbound/linux64/launch_starbound_server.sh'
